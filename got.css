@@ -1,0 +1,124 @@
+.NavigationBar{
+    margin-bottom: -3%;
+}
+.NavigationTitle{
+    display: flex;
+    padding-bottom: 2%;
+}
+.NavigationTitle p{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 200%;
+}
+.navigationbuttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 32%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.navbutton{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.navbutton p:hover{
+    transform: scale(1.1);
+}   
+/* for hiding scrolling bar without stoping functiong */
+body::-webkit-scrollbar{
+    display: none;
+} 
+body{
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    
+    background-color: rgb(14, 14, 14);
+}
+.container1{ 
+    background-image:url("793421.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+.container1a{
+    padding:50px;
+    text-align: center;
+}
+#head1
+{   color: white;
+    font-size: 70px;
+    margin-top: 200px;
+    margin-bottom: -30px;
+    text-shadow: 6px 2px black;
+    word-spacing: 10px;
+}
+#head2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 6px 1px black;
+    word-spacing: 5px;
+}
+h3{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 1px black;
+    text-align: center;
+    margin-right: 30px;
+   
+}
+.container2{
+    display: flex;
+}
+.container2 p{
+    color: white;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 150%;
+    margin-bottom: -50px;
+    box-sizing: border-box;
+}
+.img-circle{
+    border-radius: 80%;
+    width: 500px;
+    box-sizing: border-box;
+    height: 380px;
+    margin-left: 100px;
+}
+.container3{
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
+#gotvideo{
+    margin-top: 100px;
+    width: 100%;
+    height:80%;
+}
+.container4{
+    align-items:center;
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+}
+.container4 #Details{
+    width: auto;
+    height: auto;
+    border-radius: 200px;
+    padding: 10px;
+}
+.container4 button h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(222, 5, 5);
+}    
+.container4 button:hover{
+    transform: scale(1.1);
+}    

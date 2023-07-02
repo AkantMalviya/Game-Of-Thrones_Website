@@ -1,0 +1,100 @@
+.NavigationBar{
+  margin-bottom: -3%;
+  margin-top: 3%;
+}
+.NavigationTitle{
+  display: flex;
+  padding-bottom: 2%;
+}
+.NavigationTitle p{
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 220%;
+}
+.navigationbuttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 30%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.navbutton{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.navbutton p:hover{
+  transform: scale(1.1);
+}   
+/* for hiding scrolling bar without stoping functiong */
+body::-webkit-scrollbar{
+  display: none;
+} 
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 55px;}
+.bg-1 { 
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.bg-2 { 
+  background-color: black; 
+  color: #555555;
+}
+.bg-3 { 
+  background-color: black;
+  color: #555555;
+}
+.bg-4 {
+  background-color: black;
+  color: #555555;
+}
+.bg-5 { 
+  background-color: black; 
+  color: white;
+}
+.bg-6 { 
+  background-color: black; 
+  color: black;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: black !important;
+}
+.work-img:hover img {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+.work-img {
+display: block;
+overflow: hidden;
+}
+
+.work-img img {
+transition: all 1s;
+}

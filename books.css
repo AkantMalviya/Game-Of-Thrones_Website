@@ -1,0 +1,50 @@
+.NavigationBar{
+  margin-bottom: -3%;
+}
+.NavigationTitle{
+  display: flex;
+  padding-bottom: 2%;
+}
+.NavigationTitle p{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 200%;
+}
+.navigationbuttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 32%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.navbutton{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.navbutton p:hover{
+  transform: scale(1.1);
+}   
+/* for hiding scrolling bar without stoping functiong */
+body::-webkit-scrollbar{
+  display: none;
+} 
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+      background-color: black;
+    }
+    p {font-size: 16px;}
+    .margin {margin-bottom: 55px;}
+    .bg-1 { 
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }

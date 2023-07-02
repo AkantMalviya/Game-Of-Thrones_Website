@@ -1,0 +1,69 @@
+.NavigationBar{
+  margin-bottom: -3%;
+  margin-top: 3%;
+}
+.NavigationTitle{
+  display: flex;
+  padding-bottom: 2%;
+}
+.NavigationTitle p{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 200%;
+}
+.navigationbuttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 30%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.navbutton{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.navbutton p:hover{
+  transform: scale(1.1);
+}   
+/* for hiding scrolling bar without stoping functiong */
+body::-webkit-scrollbar{
+  display: none;
+} 
+body{
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  
+  background-color: black;
+  background-image:url("johnsnow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container h1{
+  color: rgb(215, 200, 242);
+  text-shadow: 3px 1px black;
+  word-spacing: 4px;
+  margin-top: 5%;
+}
+.container h2{
+  color: rgb(198, 123, 123);
+  text-shadow: 3px 1px black;
+  text-transform: capitalize;
+  word-spacing: 4px;
+}
+p {font-size: 18px;}
+.margin {margin-bottom: 55px;}
+#show{
+  font-weight: bold;
+  color: black;
+  border-radius: 30%;
+
+}
+#show:hover{
+  transform: scale(1.1);
+}
