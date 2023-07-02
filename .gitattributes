@@ -1,0 +1,11 @@
+*.python linguist-detectable=false  
+*.java linguist-detectable=false  
+*.tex linguist-detectable=false  
+*.html linguist-detectable=false  
+*.txt linguist-detectable=false 
+*.TeX linguist-detectable=false  
+*.LaTeX linguist-detectable=false
+*.toc linguist-detectable=false
+*.rtf linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=true
