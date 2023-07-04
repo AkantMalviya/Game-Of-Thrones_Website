@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones By Akant Malviya</title>
+    <link rel="stylesheet" href="got.css">
+</head>
+<body>
+<!-- Header -->
+<header></header>
+<!-- Navigation Bar -->
+<nav class="NavigationBar">
+    <div class="NavigationTitle" id="myNavbar">
+      <p>Game Of Thrones Website</p>
+      <ul class="navigationbuttons">
+        <li><a href="got.html" class="navbutton"><p>HOME</p></a></li>
+        <li><a href="got2.html" class="navbutton"><p>ABOUT</p></a></li>
+        <li><a href="house.html" class="navbutton"><p>HOUSES</p></a></li>
+        <li><a href="books.html" class="navbutton"><p>BOOKS</p></a></li>
+      </ul>
+    </div>
+</nav>
+
+<!-- First Container -->
+<div class="container1">
+<div class="container1a">
+  <p class="margin" id="head1"><b>A SONG OF ICE AND FIRE</b></p>
+  <p class="margin" id="head2">by George R. R. Martin </p>
+</div>
+</div>
+<!-- Second Container -->
+<h3 class="margin">About the Author</h3>
+<div class="container2">
+  <img src="martin.jpg" class="img-circle">
+  <p><b>George R. R. Martin</b> (born George Raymond Richard Martin, September 20, 1948), is an American novelist and short story writer in the fantasy, horror, and science fiction genres, screenwriter, and television producer. He is best known for his series of epic fantasy novels, A Song of Ice and Fire, which was adapted into the HBO series Game of Thrones (2011–2019). </p>
+</div>
+<!-- Third Container -->
+<div class="container3">    
+  <video id="gotvideo" auto controls autoplay>
+  <source src="GOT.mp4" type="video/mp4">
+  </video>  
+</div>
+<!-- Fourth Container -->
+<div class="container4"> 
+  <button id="Details" onclick=fetchData()>
+   <h3>GAME OF THRONES DIALOGUES</h3> </button>
+  <div id="Results"> </div>
+</div>
+<script src="got.js"></script>
+
+<!-- Footer -->
+<footer class="footer"></footer>
+</body>
+</html>
